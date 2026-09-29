@@ -1,0 +1,50 @@
+name: Yawnie
+options:
+  bundleIdPrefix: com.yawnie
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: 3MW3WVL926
+    SWIFT_VERSION: "5.0"
+targets:
+  Yawnie:
+    type: application
+    platform: iOS
+    sources:
+      - Yawnie
+      - path: ../Paper
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - target: ScreenTimeReport
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yawnie.app
+        CODE_SIGN_ENTITLEMENTS: Yawnie/Yawnie.entitlements
+    info:
+      path: Yawnie/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSPhotoLibraryUsageDescription: Yawnie shows your latest photos so you can choose one to send to your parents.
+  ScreenTimeReport:
+    type: app-extension
+    platform: iOS
+    sources:
+      - ScreenTimeReport
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yawnie.app.screentime-report
+        CODE_SIGN_ENTITLEMENTS: ScreenTimeReport/ScreenTimeReport.entitlements
+    info:
+      path: ScreenTimeReport/Info.plist
+      properties:
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivityui.report-extension
+  YawnieTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - YawnieTests
+    dependencies:
+      - target: Yawnie

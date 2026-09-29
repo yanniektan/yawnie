@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "name": "accuweather",
+      "tools": [
+        "*"
+      ]
+    },
+    {
+      "name": "nimble",
+      "tools": [
+        "nimble_search"
+      ]
+    }
+  ]
+}

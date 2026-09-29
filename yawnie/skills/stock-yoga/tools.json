@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "name": "nimble",
+      "tools": [
+        "nimble_extract"
+      ]
+    }
+  ]
+}

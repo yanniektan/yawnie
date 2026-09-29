@@ -1,0 +1,24 @@
+{
+  "servers": [
+    {
+      "name": "nimble",
+      "tools": [
+        "nimble_search",
+        "nimble_extract"
+      ]
+    },
+    {
+      "name": "gmail",
+      "tools": [
+        "search_threads",
+        "get_message"
+      ]
+    },
+    {
+      "name": "twelvedata",
+      "tools": [
+        "get_company_news"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "name": "gmail",
+      "tools": [
+        "search_threads",
+        "get_message",
+        "trash_thread"
+      ]
+    },
+    {
+      "name": "unsubscribe",
+      "tools": [
+        "list_unsubscribe_options",
+        "unsubscribe"
+      ]
+    }
+  ]
+}

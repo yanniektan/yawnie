@@ -1,0 +1,8 @@
+{
+  "name": "yawnie-mcp-spotify-history",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet'"
+  }
+}

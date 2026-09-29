@@ -1,0 +1,85 @@
+{
+  "day": "2026-09-30",
+  "results": [
+    {
+      "skill": "counters",
+      "generatedAt": "2026-09-30T06:00:00-04:00",
+      "block": {
+        "type": "counters",
+        "today": {
+          "ate_out": 1,
+          "buckled": 0,
+          "piano": true,
+          "stretched": false
+        },
+        "week": {
+          "ate_out": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1
+          ],
+          "buckled": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "skill": "weather-outfit",
+      "generatedAt": "2026-09-30T06:00:00-04:00",
+      "block": {
+        "type": "text",
+        "title": "Weather",
+        "lines": [
+          "Sample: 64F and clear.",
+          "Sample outfit: navy blazer, white tee."
+        ]
+      }
+    },
+    {
+      "skill": "stock-groceries",
+      "generatedAt": "2026-09-30T06:00:00-04:00",
+      "block": {
+        "type": "bar",
+        "title": "Groceries",
+        "bars": [
+          {
+            "label": "Strawberries",
+            "value": 5,
+            "unit": "days"
+          }
+        ]
+      }
+    },
+    {
+      "skill": "chem-fact",
+      "generatedAt": "2026-09-30T06:00:00-04:00",
+      "block": {
+        "type": "qa",
+        "question": "Sample question.",
+        "answer": "Sample answer.",
+        "realWorld": "Sample real-world use.",
+        "source": "https://example.com"
+      }
+    },
+    {
+      "skill": "comic",
+      "generatedAt": "2026-09-30T06:00:00-04:00",
+      "block": {
+        "type": "unavailable",
+        "skill": "comic",
+        "reason": "Not available this morning"
+      }
+    }
+  ]
+}

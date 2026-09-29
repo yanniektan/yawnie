@@ -1,0 +1,33 @@
+{
+  "accuweather": {
+    "kind": "remote",
+    "url": "https://mcp.accuweather.com/v0/mcp/claude"
+  },
+  "nimble": {
+    "kind": "remote",
+    "url": "https://mcp.nimbleway.com/mcp"
+  },
+  "twelvedata": {
+    "kind": "remote",
+    "url": "https://mcp.twelvedata.com/mcp"
+  },
+  "gmail": {
+    "kind": "remote",
+    "url": "https://gmailmcp.googleapis.com/mcp/v1"
+  },
+  "spotify-history": {
+    "kind": "custom",
+    "url": "TBD",
+    "source": "mcp/spotify-history"
+  },
+  "comic-art": {
+    "kind": "custom",
+    "url": "TBD",
+    "source": "mcp/comic-art"
+  },
+  "unsubscribe": {
+    "kind": "custom",
+    "url": "TBD",
+    "source": "mcp/unsubscribe"
+  }
+}

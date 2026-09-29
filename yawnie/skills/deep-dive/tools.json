@@ -1,0 +1,17 @@
+{
+  "servers": [
+    {
+      "name": "twelvedata",
+      "tools": [
+        "get_analyst_data",
+        "get_company_news"
+      ]
+    },
+    {
+      "name": "nimble",
+      "tools": [
+        "nimble_search"
+      ]
+    }
+  ]
+}

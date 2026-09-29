@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "name": "comic-art",
+      "tools": [
+        "draw_panel"
+      ]
+    }
+  ]
+}

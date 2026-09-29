@@ -1,0 +1,9 @@
+@page { size: Letter; margin: 0.5in; }
+:root { --ink: #111; --paper: #fff; }
+body { font-family: "Courier Prime", "Courier New", monospace; color: var(--ink); background: var(--paper); margin: 0; }
+h1, h2 { font-family: "Special Elite", "Courier New", monospace; font-weight: normal; }
+.masthead { text-align: center; border-bottom: 3px double var(--ink); }
+section { border-bottom: 1px solid var(--ink); padding: 8px 0; break-inside: avoid; }
+.row { display: flex; gap: 12px; }
+.row > section { flex: 1; }
+@media print { .no-print { display: none; } }

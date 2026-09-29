@@ -1,0 +1,8 @@
+{
+  "name": "yawnie-mcp-unsubscribe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet'"
+  }
+}

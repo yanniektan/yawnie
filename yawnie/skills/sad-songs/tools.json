@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "name": "spotify-history",
+      "tools": [
+        "recently_played"
+      ]
+    }
+  ]
+}

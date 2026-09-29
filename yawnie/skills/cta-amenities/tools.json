@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "name": "gmail",
+      "tools": [
+        "search_threads",
+        "get_message"
+      ]
+    }
+  ]
+}
