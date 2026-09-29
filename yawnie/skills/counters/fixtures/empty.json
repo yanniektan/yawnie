@@ -1,0 +1,52 @@
+{
+  "description": "No rows yet: every counter is zero or no.",
+  "today": "2026-09-29",
+  "rows": [],
+  "expected": {
+    "type": "counters",
+    "today": {
+      "ate_out": 0,
+      "buckled": 0,
+      "piano": false,
+      "stretched": false
+    },
+    "week": {
+      "ate_out": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "buckled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "piano": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretched": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

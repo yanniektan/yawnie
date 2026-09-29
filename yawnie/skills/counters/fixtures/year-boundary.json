@@ -1,0 +1,68 @@
+{
+  "description": "The seven days cross a month and a year.",
+  "today": "2027-01-02",
+  "rows": [
+    {
+      "day": "2026-12-31",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-12-27",
+      "kind": "buckled",
+      "value": 1
+    },
+    {
+      "day": "2026-12-26",
+      "kind": "piano",
+      "value": 1
+    }
+  ],
+  "expected": {
+    "type": "counters",
+    "today": {
+      "ate_out": 0,
+      "buckled": 0,
+      "piano": false,
+      "stretched": false
+    },
+    "week": {
+      "ate_out": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "buckled": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "piano": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretched": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}
