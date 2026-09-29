@@ -1,0 +1,55 @@
+{
+  "description": "Which counter day a tap belongs to. Before noon local time it is still the previous day.",
+  "cases": [
+    {
+      "now": "2026-09-30T06:00:00-04:00",
+      "timeZone": "America/New_York",
+      "day": "2026-09-29"
+    },
+    {
+      "now": "2026-09-30T11:59:59-04:00",
+      "timeZone": "America/New_York",
+      "day": "2026-09-29"
+    },
+    {
+      "now": "2026-09-30T12:00:00-04:00",
+      "timeZone": "America/New_York",
+      "day": "2026-09-30"
+    },
+    {
+      "now": "2026-09-30T23:59:00-04:00",
+      "timeZone": "America/New_York",
+      "day": "2026-09-30"
+    },
+    {
+      "now": "2026-10-01T13:00:00Z",
+      "timeZone": "America/New_York",
+      "day": "2026-09-30"
+    },
+    {
+      "now": "2026-10-01T13:00:00Z",
+      "timeZone": "UTC",
+      "day": "2026-10-01"
+    },
+    {
+      "now": "2027-01-01T08:00:00-05:00",
+      "timeZone": "America/New_York",
+      "day": "2026-12-31"
+    },
+    {
+      "now": "2026-11-01T11:30:00-05:00",
+      "timeZone": "America/New_York",
+      "day": "2026-10-31"
+    },
+    {
+      "now": "2026-11-01T12:30:00-05:00",
+      "timeZone": "America/New_York",
+      "day": "2026-11-01"
+    },
+    {
+      "now": "2026-03-01T10:00:00-05:00",
+      "timeZone": "America/New_York",
+      "day": "2026-02-28"
+    }
+  ]
+}

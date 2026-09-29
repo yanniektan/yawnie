@@ -1,0 +1,10 @@
+{
+  "description": "The rows could not be read. The paper still prints, with this box marked unavailable.",
+  "today": "2026-09-29",
+  "rows": null,
+  "expected": {
+    "type": "unavailable",
+    "skill": "counters",
+    "reason": "Not available this morning"
+  }
+}

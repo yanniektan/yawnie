@@ -1,0 +1,113 @@
+{
+  "description": "A normal week. Matches the counters block in Paper/sample/edition.sample.json, plus the piano and stretched series.",
+  "today": "2026-09-29",
+  "rows": [
+    {
+      "day": "2026-09-24",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-26",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-26",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-27",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-25",
+      "kind": "buckled",
+      "value": 1
+    },
+    {
+      "day": "2026-09-23",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-25",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-26",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-25",
+      "kind": "stretched",
+      "value": 1
+    },
+    {
+      "day": "2026-09-27",
+      "kind": "stretched",
+      "value": 1
+    }
+  ],
+  "expected": {
+    "type": "counters",
+    "today": {
+      "ate_out": 1,
+      "buckled": 0,
+      "piano": true,
+      "stretched": false
+    },
+    "week": {
+      "ate_out": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "buckled": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "piano": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "stretched": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  }
+}

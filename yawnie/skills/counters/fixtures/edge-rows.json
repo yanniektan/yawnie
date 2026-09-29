@@ -1,0 +1,148 @@
+{
+  "description": "Undo rows, toggles switched off, duplicate yeses, rows outside the window, unknown kinds and malformed rows.",
+  "today": "2026-09-29",
+  "rows": [
+    {
+      "day": "2026-09-29",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "ate_out",
+      "value": -1
+    },
+    {
+      "day": "2026-09-28",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-28",
+      "kind": "ate_out",
+      "value": -1
+    },
+    {
+      "day": "2026-09-28",
+      "kind": "ate_out",
+      "value": -1
+    },
+    {
+      "day": "2026-09-22",
+      "kind": "ate_out",
+      "value": 5
+    },
+    {
+      "day": "2026-09-30",
+      "kind": "ate_out",
+      "value": 1
+    },
+    {
+      "day": "2026-09-27",
+      "kind": "buckled",
+      "value": 1
+    },
+    {
+      "day": "2026-09-27",
+      "kind": "buckled",
+      "value": 1.5
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "piano",
+      "value": -1
+    },
+    {
+      "day": "2026-09-28",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-28",
+      "kind": "piano",
+      "value": 1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "stretched",
+      "value": 2
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "stretched",
+      "value": -1
+    },
+    {
+      "day": "2026-09-29",
+      "kind": "napped",
+      "value": 1
+    },
+    {
+      "day": "2026-9-29",
+      "kind": "buckled",
+      "value": 1
+    }
+  ],
+  "expected": {
+    "type": "counters",
+    "today": {
+      "ate_out": 2,
+      "buckled": 0,
+      "piano": false,
+      "stretched": true
+    },
+    "week": {
+      "ate_out": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "buckled": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "piano": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "stretched": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+}
